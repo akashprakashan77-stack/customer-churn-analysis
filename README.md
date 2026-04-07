@@ -1,28 +1,76 @@
-<<<<<<< HEAD
-# Customer Churn Analysis & Prediction
+# 📊 Customer Churn Analysis & Prediction
 
-## Overview
-This project analyzes customer churn and builds a machine learning model to predict churn.
+#  Project Overview
+This project analyzes customer churn behavior using a telecom dataset and builds a machine learning model to predict whether a customer will churn.
 
-## Tools Used
+---
+
+##  Objectives
+- Understand factors influencing customer churn
+- Perform exploratory data analysis (EDA)
+- Build a predictive machine learning model
+
+---
+
+# 🛠️ Tools & Technologies
 - Python
 - Pandas
-- Seaborn
+- NumPy
+- Matplotlib & Seaborn
 - Scikit-learn
 
-## Key Insights
-- Month-to-month contracts have highest churn
-- Customers with low tenure churn more
-- High monthly charges increase churn risk
-- Electronic check users churn more
+---
 
-## Model
-- Logistic Regression
-- Accuracy: 78%
+## 📂 Dataset
+Telco Customer Churn Dataset containing customer demographics, services, and billing information.
 
-## Conclusion
-This project helps identify customers likely to churn and supports retention strategies.
-=======
-# customer-churn-analysis
-Customer churn prediction using Python and machine learning
->>>>>>> c639db241115ca44955c7b8a8d4c8e47dc1245fa
+---
+
+##🔍 Exploratory Data Analysis (EDA)
+
+# Key Insights:
+- 📉 Customers with **month-to-month contracts** churn more
+- ⏳ Customers with **low tenure** are more likely to churn
+- 💰 Higher **monthly charges** increase churn probability
+- 💳 Customers using **electronic check** have higher churn
+
+---
+
+## 📊 Visualizations
+
+### Contract Type vs Churn
+![Contract vs Churn](images/contract_vs_churn.png)
+
+### Monthly Charges vs Churn
+![Monthly Charges vs Churn](images/monthly_charges_vs_churn.png)
+
+### Payment Method vs Churn
+![Payment Method vs Churn](images/payment_method_vs_churn.png)
+
+---
+
+##  Model Building
+- Model Used: Logistic Regression
+- Accuracy: **78.67%**
+
+---
+
+##  Model Evaluation
+The model performs well in predicting customer churn with good accuracy.
+
+---
+
+##  Conclusion
+This project helps identify customers who are likely to churn and enables businesses to take proactive actions to improve customer retention.
+
+---
+
+##  Future Improvements
+- Try advanced models like Random Forest and XGBoost
+- Hyperparameter tuning
+- Deployment using Streamlit
+
+---
+
+## 👨‍💻 Author
+Akash Prakashan
