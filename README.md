@@ -1,4 +1,4 @@
-# 📊 Customer Churn Analysis & Prediction
+# 📊 “Customer Churn Analysis to Identify Key Drivers and Reduce Customer Loss"
 
 #  Project Overview
 This project analyzes customer churn behavior using a telecom dataset and builds a machine learning model to predict whether a customer will churn.
