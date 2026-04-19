@@ -70,6 +70,10 @@ This project helps identify customers who are likely to churn and enables busine
 - Hyperparameter tuning
 - Deployment using Streamlit
 
+# Business Recommendations
+Offer discounts for long-term contracts
+Improve onboarding for new users
+Target high-risk customers with retention campaigns
 ---
 
 ## 👨‍💻 Author
